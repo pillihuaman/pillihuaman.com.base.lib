@@ -18,7 +18,8 @@ import pillihuaman.com.base.response.RespBase.Trace;
 //@JsonIgnoreProperties("hibernateLazyInitializer")
 @Getter
 @Setter
-public class ReqBase<T> {
+public class
+ReqBase<T> {
 	private Trace trace;
 	private T data;
 

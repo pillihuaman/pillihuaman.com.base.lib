@@ -7,13 +7,14 @@ import java.util.Date;
 import com.googlecode.jmapper.annotations.JGlobalMap;
 
 import lombok.Data;
+import org.bson.types.ObjectId;
 
 
 @JGlobalMap
 @Data
 public class RespProduct {
 
-	private int idProduct;
+	private ObjectId idProduct;
 	private Timestamp createDate;
 	private String description;
 	private Date expirationDate;
@@ -27,12 +28,16 @@ public class RespProduct {
 	private String status;
 	private Timestamp updateDate;
 	private String userCreate;
-	public int getIdProduct() {
+
+
+	public ObjectId getIdProduct() {
 		return idProduct;
 	}
-	public void setIdProduct(int idProduct) {
+
+	public void setIdProduct(ObjectId idProduct) {
 		this.idProduct = idProduct;
 	}
+
 	public Timestamp getCreateDate() {
 		return createDate;
 	}

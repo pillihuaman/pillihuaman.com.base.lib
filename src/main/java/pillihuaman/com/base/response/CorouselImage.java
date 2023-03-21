@@ -14,6 +14,15 @@ public class CorouselImage {
     private int index;
     private boolean indicators;
     private  String idDetail;
+    private RespProduct respProduct;
+
+    public pillihuaman.com.base.response.RespProduct getRespProduct() {
+        return respProduct;
+    }
+
+    public void setRespProduct(pillihuaman.com.base.response.RespProduct respProduct) {
+        respProduct = respProduct;
+    }
 
     public String getIdDetail() {
         return idDetail;

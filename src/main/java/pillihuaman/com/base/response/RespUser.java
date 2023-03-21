@@ -3,6 +3,7 @@ import com.googlecode.jmapper.annotations.JGlobalMap;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.bson.types.ObjectId;
 
 
 @JGlobalMap
@@ -10,7 +11,7 @@ import lombok.Setter;
 @Setter
 public class RespUser {
 	
-	private  int id_user;
+	private ObjectId id_user;
 	private String alias;
 	private  int id_system;
 	private String mail;
@@ -22,10 +23,11 @@ public class RespUser {
 	private String sal_Password;
 	private   int enabled;
 	private int id_rol;
-	public int getId_user() {
+
+	public ObjectId getId_user() {
 		return id_user;
 	}
-	public void setId_user(int id_user) {
+	public void setId_user(ObjectId id_user) {
 		this.id_user = id_user;
 	}
 	public String getAlias() {

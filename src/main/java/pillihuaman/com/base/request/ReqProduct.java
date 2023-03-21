@@ -1,5 +1,7 @@
 package pillihuaman.com.base.request;
 
+import org.bson.types.ObjectId;
+
 import java.sql.Timestamp;
 import java.util.Date;
 
@@ -7,7 +9,7 @@ import java.util.Date;
 
 public class ReqProduct {
 	
-	private int idProduct;
+	private ObjectId idProduct;
 	private Timestamp createDate;
 	private String description;
 	private Date expirationDate;
@@ -21,12 +23,15 @@ public class ReqProduct {
 	private Timestamp updateDate;
 	private String userCreate;
 	private String userModify;
-	public int getIdProduct() {
+
+	public ObjectId getIdProduct() {
 		return idProduct;
 	}
-	public void setIdProduct(int idProduct) {
+
+	public void setIdProduct(ObjectId idProduct) {
 		this.idProduct = idProduct;
 	}
+
 	public Timestamp getCreateDate() {
 		return createDate;
 	}
