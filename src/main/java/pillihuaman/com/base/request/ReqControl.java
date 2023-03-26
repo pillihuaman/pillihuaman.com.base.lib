@@ -13,7 +13,7 @@ public class ReqControl {
     private String iconClass;
     private int status;
     private String styleClass;
-    private ObjectId id_user;
+    private String id_user;
     private String text;
 
     public String getIdCode() {
@@ -32,11 +32,11 @@ public class ReqControl {
         this.text = text;
     }
 
-    public ObjectId getId_user() {
+    public String getId_user() {
         return id_user;
     }
 
-    public void setId_user(ObjectId id_user) {
+    public void setId_user(String id_user) {
         this.id_user = id_user;
     }
 

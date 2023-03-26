@@ -17,7 +17,7 @@ public class ReqProduct {
 	private int idPrice;
 	private int idSystem;
 	private int idType;
-	private int idUser;
+	private ObjectId idUser;
 	private String name;
 	private String status;
 	private Timestamp updateDate;
@@ -74,10 +74,10 @@ public class ReqProduct {
 	public void setIdType(int idType) {
 		this.idType = idType;
 	}
-	public int getIdUser() {
+	public ObjectId getIdUser() {
 		return idUser;
 	}
-	public void setIdUser(int idUser) {
+	public void setIdUser(ObjectId idUser) {
 		this.idUser = idUser;
 	}
 	public String getName() {

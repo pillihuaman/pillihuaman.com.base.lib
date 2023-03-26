@@ -19,10 +19,27 @@ public class ReqStock implements Serializable {
     @JsonSerialize(using = ToStringSerializer.class)
     private ObjectId _id;
     private String idProduct;
+    private  String barCode;
     private Date expirationDate;
     private Date creationDate;
     private List<ReqSize> size;
+    private int count;
 
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public String getBarCode() {
+        return barCode;
+    }
+
+    public void setBarCode(String barCode) {
+        this.barCode = barCode;
+    }
 
     public String getIdProduct() {
         return idProduct;

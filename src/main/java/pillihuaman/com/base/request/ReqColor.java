@@ -17,14 +17,14 @@ import java.util.List;
 @Setter
 public class ReqColor {
 
-	private ObjectId idProduct;
+	private String idProduct;
 	private List<ImagenDetail> listImagen;
 
-	public ObjectId getIdProduct() {
+	public String getIdProduct() {
 		return idProduct;
 	}
 
-	public void setIdProduct(ObjectId idProduct) {
+	public void setIdProduct(String idProduct) {
 		this.idProduct = idProduct;
 	}
 

@@ -12,7 +12,7 @@ public class Parameters implements Serializable {
     @BsonId
     @JsonSerialize(using = ToStringSerializer.class)
     private ObjectId _id;
-	private int idParameter ;
+	private String idParameter ;
       private String idCode;
       private String name;
       private String    description;
@@ -25,11 +25,11 @@ public class Parameters implements Serializable {
         this._id = _id;
     }
 
-    public int getIdParameter() {
+    public String getIdParameter() {
         return idParameter;
     }
 
-    public void setIdParameter(int idParameter) {
+    public void setIdParameter(String idParameter) {
         this.idParameter = idParameter;
     }
 

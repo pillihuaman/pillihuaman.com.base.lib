@@ -14,7 +14,7 @@ import org.bson.types.ObjectId;
 @Data
 public class RespProduct {
 
-	private ObjectId idProduct;
+	private String idProduct;
 	private Timestamp createDate;
 	private String description;
 	private Date expirationDate;
@@ -23,18 +23,18 @@ public class RespProduct {
 	private int idSystem;
 	private String userModify;
 	private int idType;
-	private int idUser;
+	private String idUser;
 	private String name;
 	private String status;
 	private Timestamp updateDate;
 	private String userCreate;
 
 
-	public ObjectId getIdProduct() {
+	public String getIdProduct() {
 		return idProduct;
 	}
 
-	public void setIdProduct(ObjectId idProduct) {
+	public void setIdProduct(String idProduct) {
 		this.idProduct = idProduct;
 	}
 
@@ -80,10 +80,10 @@ public class RespProduct {
 	public void setIdType(int idType) {
 		this.idType = idType;
 	}
-	public int getIdUser() {
+	public String getIdUser() {
 		return idUser;
 	}
-	public void setIdUser(int idUser) {
+	public void setIdUser(String idUser) {
 		this.idUser = idUser;
 	}
 	public String getName() {
