@@ -1,17 +1,13 @@
 package pillihuaman.com.base.response;
 
+import com.googlecode.jmapper.annotations.JGlobalMap;
+import org.bson.types.ObjectId;
+
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.util.Date;
 
-import com.googlecode.jmapper.annotations.JGlobalMap;
 
-import lombok.Data;
-import org.bson.types.ObjectId;
-
-
-@JGlobalMap
-@Data
 public class RespImagen {
 	private int idProduct;
 	private Timestamp createDate;

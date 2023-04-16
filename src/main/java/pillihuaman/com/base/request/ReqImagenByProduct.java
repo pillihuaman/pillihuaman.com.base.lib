@@ -6,7 +6,7 @@ public class ReqImagenByProduct {
 
     private String name;
     private int count;
-    private int idProduct;
+    private String idProduct;
     private String uniqueKeyHash;
     private  String description;
     private List<ImagenDetail> listImagen;
@@ -35,11 +35,11 @@ public class ReqImagenByProduct {
         this.count = count;
     }
 
-    public int getIdProduct() {
+    public String getIdProduct() {
         return idProduct;
     }
 
-    public void setIdProduct(int idProduct) {
+    public void setIdProduct(String idProduct) {
         this.idProduct = idProduct;
     }
 

@@ -1,14 +1,7 @@
 package pillihuaman.com.base.response;
-import com.googlecode.jmapper.annotations.JGlobalMap;
-
-import lombok.Getter;
-import lombok.Setter;
-import org.bson.types.ObjectId;
 
 
-@JGlobalMap
-@Getter
-@Setter
+
 public class RespUser {
 	
 	private String id_user;

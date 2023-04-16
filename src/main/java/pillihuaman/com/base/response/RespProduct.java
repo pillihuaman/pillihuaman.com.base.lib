@@ -6,12 +6,6 @@ import java.util.Date;
 
 import com.googlecode.jmapper.annotations.JGlobalMap;
 
-import lombok.Data;
-import org.bson.types.ObjectId;
-
-
-@JGlobalMap
-@Data
 public class RespProduct {
 
 	private String idProduct;

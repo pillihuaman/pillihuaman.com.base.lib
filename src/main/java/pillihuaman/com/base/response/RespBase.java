@@ -6,8 +6,6 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
-
-import lombok.Data;
 @JsonIgnoreProperties(ignoreUnknown = true)
 //@JsonIgnoreProperties("hibernateLazyInitializer")
 
@@ -116,7 +114,7 @@ import lombok.Data;
 			 *
 			 * @author ttorres
 			 */
-		@Data
+
 			public static class Error {
 
 				public String getCode() {

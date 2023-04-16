@@ -1,26 +1,10 @@
 package pillihuaman.com.base.request;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import pillihuaman.com.base.response.RespBase;
 
-import lombok.Getter;
-import lombok.Setter;
-import pillihuaman.com.base.response.RespBase.Trace;
-
-/**
- * Clase plantila para request
- * 
- * @author ttorres
- *
- * @param <T>
- *            Clase del payload
- */
-@JsonIgnoreProperties(ignoreUnknown = true)
-//@JsonIgnoreProperties("hibernateLazyInitializer")
-@Getter
-@Setter
 public class
 ReqBase<T> {
-	private Trace trace;
+	private RespBase.Trace trace;
 	private T data;
 
 	public ReqBase() {//NOSONAR
@@ -28,11 +12,11 @@ ReqBase<T> {
 
 	}
 
-	public Trace getTrace() {
+	public RespBase.Trace getTrace() {
 		return trace;
 	}
 
-	public void setTrace(Trace trace) {
+	public void setTrace(RespBase.Trace trace) {
 		this.trace = trace;
 	}
 

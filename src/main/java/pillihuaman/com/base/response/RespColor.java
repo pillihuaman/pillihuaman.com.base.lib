@@ -3,19 +3,26 @@ import java.math.BigInteger;
 
 import com.googlecode.jmapper.annotations.JGlobalMap;
 
-import lombok.Getter;
-import lombok.Setter;
-
-
-@JGlobalMap
-@Getter
-@Setter
 public class RespColor {
 	
 	private BigInteger idColor;
 	private String name;
 
-	
+	public BigInteger getIdColor() {
+		return idColor;
+	}
+
+	public void setIdColor(BigInteger idColor) {
+		this.idColor = idColor;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 }
 
 

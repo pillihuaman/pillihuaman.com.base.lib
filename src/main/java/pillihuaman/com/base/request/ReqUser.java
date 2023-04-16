@@ -1,13 +1,7 @@
 package pillihuaman.com.base.request;
 import com.googlecode.jmapper.annotations.JGlobalMap;
 
-import lombok.Getter;
-import lombok.Setter;
 
-
-@JGlobalMap
-@Getter
-@Setter
 public class ReqUser {
 	
 	private int idUser;
