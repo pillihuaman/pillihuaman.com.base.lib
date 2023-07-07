@@ -1,5 +1,6 @@
 package pillihuaman.com.base.response;
 
+
 import pillihuaman.com.base.request.ReqControl;
 
 import java.util.List;

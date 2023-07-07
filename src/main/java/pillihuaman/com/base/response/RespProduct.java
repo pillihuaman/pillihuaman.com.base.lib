@@ -1,10 +1,7 @@
 package pillihuaman.com.base.response;
 
-import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.util.Date;
-
-import com.googlecode.jmapper.annotations.JGlobalMap;
 
 public class RespProduct {
 

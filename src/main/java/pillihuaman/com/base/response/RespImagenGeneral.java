@@ -1,6 +1,6 @@
 package pillihuaman.com.base.response;
 
-import com.googlecode.jmapper.annotations.JGlobalMap;
+import pillihuaman.com.base.request.CorouselImage;
 
 import java.util.List;
 

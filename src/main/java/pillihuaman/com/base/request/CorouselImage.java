@@ -1,8 +1,7 @@
-package pillihuaman.com.base.response;
+package pillihuaman.com.base.request;
 
-import org.bson.types.ObjectId;
 
-import java.util.Objects;
+import pillihuaman.com.base.response.RespProduct;
 
 public class CorouselImage {
     private String imageSrc;
@@ -16,11 +15,11 @@ public class CorouselImage {
     private  String idDetail;
     private RespProduct respProduct;
 
-    public pillihuaman.com.base.response.RespProduct getRespProduct() {
+    public RespProduct getRespProduct() {
         return respProduct;
     }
 
-    public void setRespProduct(pillihuaman.com.base.response.RespProduct respProduct) {
+    public void setRespProduct(RespProduct respProduct) {
         respProduct = respProduct;
     }
 
