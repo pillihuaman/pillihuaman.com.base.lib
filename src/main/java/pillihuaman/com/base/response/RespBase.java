@@ -1,11 +1,12 @@
 package pillihuaman.com.base.response;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
+
+import java.util.ArrayList;
+import java.util.List;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 //@JsonIgnoreProperties("hibernateLazyInitializer")
 
@@ -13,7 +14,10 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 		private Trace trace;
 		private Status status;
-		public Trace getTrace() {
+	@JsonInclude(Include.NON_NULL)
+	private T payload;
+
+	public Trace getTrace() {
 			return trace;
 		}
 
@@ -37,8 +41,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 			this.payload = payload;
 		}
 
-		@JsonInclude(Include.NON_NULL)
-		private T payload;
+
 
 		public RespBase() {
 			super();
