@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pillihuaman-com-lib" />
+        <module name="pillihuaman-com-basebd" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pillihuaman-base" target="17" />
+      <module name="pillihuaman-basebd" target="17" />
+      <module name="pillihuaman-com-security" target="17" />
+      <module name="pillihuaman-com-security-app" target="17" />
+      <module name="pillihuaman.security.app" target="1.8" />
+      <module name="security" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pillihuaman-base" options="-parameters" />
+      <module name="pillihuaman-basebd" options="-parameters" />
+      <module name="pillihuaman-com-basebd" options="-parameters" />
+      <module name="pillihuaman-com-lib" options="-parameters" />
+      <module name="pillihuaman-com-security" options="-parameters" />
+      <module name="pillihuaman-com-security-app" options="-parameters" />
+      <module name="pillihuaman.security.app" options="-parameters" />
+      <module name="security" options="-parameters" />
+    </option>
+  </component>
+</project>
