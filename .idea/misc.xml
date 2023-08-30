@@ -4,9 +4,17 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$USER_HOME$/Downloads/spring-security-3.1.1-changes-main/spring-security-3.1.1-changes-main/pom.xml" />
+        <option value="$USER_HOME$/Downloads/jcabelloc-itana-itana-demos-15f92cedf548/jcabelloc-itana-itana-demos-15f92cedf548/spring-security-jwt-demo/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../pillihuaman-com-pe-basebd/pom.xml" />
+        <option value="$PROJECT_DIR$/../pillihuaman-com-segurity-auth/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$USER_HOME$/Downloads/spring-security-3.1.1-changes-main/spring-security-3.1.1-changes-main/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />

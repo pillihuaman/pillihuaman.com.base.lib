@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="pillihuaman-com-security-auth" />
         <module name="pillihuaman-com-lib" />
         <module name="pillihuaman-com-basebd" />
       </profile>
@@ -15,9 +16,14 @@
       <module name="pillihuaman-base" target="17" />
       <module name="pillihuaman-basebd" target="17" />
       <module name="pillihuaman-com-security" target="17" />
+      <module name="pillihuaman-com-security (1)" target="17" />
+      <module name="pillihuaman-com-security (2)" target="17" />
       <module name="pillihuaman-com-security-app" target="17" />
       <module name="pillihuaman.security.app" target="1.8" />
       <module name="security" target="17" />
+      <module name="spring-security-demo" target="11" />
+      <module name="spring-security-jwt-demo" target="17" />
+      <module name="spring-security-latest" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -27,9 +33,15 @@
       <module name="pillihuaman-com-basebd" options="-parameters" />
       <module name="pillihuaman-com-lib" options="-parameters" />
       <module name="pillihuaman-com-security" options="-parameters" />
+      <module name="pillihuaman-com-security (1)" options="-parameters" />
+      <module name="pillihuaman-com-security (2)" options="-parameters" />
       <module name="pillihuaman-com-security-app" options="-parameters" />
+      <module name="pillihuaman-com-security-auth" options="-parameters" />
       <module name="pillihuaman.security.app" options="-parameters" />
       <module name="security" options="-parameters" />
+      <module name="spring-security-demo" options="-parameters" />
+      <module name="spring-security-jwt-demo" options="-parameters" />
+      <module name="spring-security-latest" options="-parameters" />
     </option>
   </component>
 </project>
