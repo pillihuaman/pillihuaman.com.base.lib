@@ -1,23 +1,30 @@
 package pillihuaman.com.lib.request;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
+import org.bson.types.ObjectId;
 
-@Getter
+import java.io.Serializable;
+
 @Setter
-public class ReqUser {
-	
-	private int idUser;
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor // Add this annotation for the all-argument constructor
+@Builder
+@ToString
+public class ReqUser  {
+
+	private ObjectId idUser;
 	private String alias;
-	private String apiPassword;
-	private int id_System;
-	private String mail;
+	private  ObjectId idSystem;
+	private String email;
 	private String mobilPhone;
+	private String user;
+	private String userName;
+	private String apiPassword;
 	private String password;
 	private String salPassword;
-	private String user;
-	private String username;
-	private String  typeDocument;
-	private String   numTypeDocument;
+	private   boolean enabled;
+	private ObjectId idRol;
+
 }
 
 

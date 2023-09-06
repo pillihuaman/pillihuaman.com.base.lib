@@ -7,19 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pillihuaman-com-security-auth" />
+        <module name="pillihuaman-com-security" />
+        <module name="pillihuaman-com-support" />
         <module name="pillihuaman-com-lib" />
         <module name="pillihuaman-com-basebd" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pillihuaman-base" target="17" />
-      <module name="pillihuaman-basebd" target="17" />
-      <module name="pillihuaman-com-security" target="17" />
+      <module name="pillihuaman-basebd" target="1.5" />
       <module name="pillihuaman-com-security (1)" target="17" />
       <module name="pillihuaman-com-security (2)" target="17" />
+      <module name="pillihuaman-com-security-2" target="1.5" />
       <module name="pillihuaman-com-security-app" target="17" />
+      <module name="pillihuaman-com-security-auth" target="17" />
       <module name="pillihuaman.security.app" target="1.8" />
+      <module name="pillihuaman.support.app" target="1.8" />
       <module name="security" target="17" />
       <module name="spring-security-demo" target="11" />
       <module name="spring-security-jwt-demo" target="17" />
@@ -29,7 +32,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="pillihuaman-base" options="-parameters" />
-      <module name="pillihuaman-basebd" options="-parameters" />
+      <module name="pillihuaman-basebd" options="" />
       <module name="pillihuaman-com-basebd" options="-parameters" />
       <module name="pillihuaman-com-lib" options="-parameters" />
       <module name="pillihuaman-com-security" options="-parameters" />
@@ -37,7 +40,9 @@
       <module name="pillihuaman-com-security (2)" options="-parameters" />
       <module name="pillihuaman-com-security-app" options="-parameters" />
       <module name="pillihuaman-com-security-auth" options="-parameters" />
+      <module name="pillihuaman-com-support" options="-parameters" />
       <module name="pillihuaman.security.app" options="-parameters" />
+      <module name="pillihuaman.support.app" options="-parameters" />
       <module name="security" options="-parameters" />
       <module name="spring-security-demo" options="-parameters" />
       <module name="spring-security-jwt-demo" options="-parameters" />
