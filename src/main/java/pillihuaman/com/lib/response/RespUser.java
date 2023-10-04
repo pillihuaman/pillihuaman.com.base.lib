@@ -11,15 +11,16 @@ import org.bson.types.ObjectId;
 @ToString
 public class RespUser {
 	
-	private ObjectId idUser;
+	private String idUser;
 	private String alias;
 	private  ObjectId idSystem;
 	private String mail;
 	private String mobilPhone;
 	private String user;
 	private String userName;
-	private   int enabled;
+	private   boolean enabled;
 	private ObjectId idRol;
+	private String access_token;
 
 }
 

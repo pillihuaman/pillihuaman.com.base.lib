@@ -2,6 +2,8 @@ package pillihuaman.com.lib.exception;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -21,6 +23,7 @@ import org.springframework.web.multipart.support.MissingServletRequestPartExcept
 import org.springframework.web.servlet.NoHandlerFoundException;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+import pillihuaman.com.lib.response.RespBase;
 
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
@@ -29,7 +32,7 @@ import java.util.Set;
 @ControllerAdvice
 @EnableWebMvc
 public class CustomRestExceptionHandlerGeneric extends ResponseEntityExceptionHandler {
-
+    private static Logger logger =  LogManager.getLogger();
     // Custom exception to represent HTTP status codes
     static class HttpException extends RuntimeException {
         private HttpStatus httpStatus;
@@ -46,10 +49,9 @@ public class CustomRestExceptionHandlerGeneric extends ResponseEntityExceptionHa
 
     // Method to handle all exceptions
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<Object> handleAllExceptions(Exception ex) {
+    public ResponseEntity<?> handleAllExceptions(Exception ex) {
         HttpStatus httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
-        String message = "Error occurred";
-
+        String message = "Error: ";
         if (ex instanceof HttpException) {
             HttpException httpException = (HttpException) ex;
             httpStatus = httpException.getHttpStatus();
@@ -57,12 +59,14 @@ public class CustomRestExceptionHandlerGeneric extends ResponseEntityExceptionHa
         }
 
         ErrorResponseApiGeneric errorResponseApi = new ErrorResponseApiGeneric(httpStatus.value(), ex.getLocalizedMessage(), message);
-        return new ResponseEntity<>(errorResponseApi, new HttpHeaders(), httpStatus);
+        logger.error(message+ex.getLocalizedMessage(),httpStatus);
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(RespBase.builder().payload(errorResponseApi).trace(RespBase.Trace.builder().traceId("1").build()).status(RespBase.Status.builder().success(false).
+                error(RespBase.Status.Error.builder().messages(null).build()).build()).build());
+       // return new ResponseEntity<>(errorResponseApi, new HttpHeaders(), httpStatus);
     }
 
     // 400 - MethodArgumentNotValidException
     public ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
-
         List<String> errors = new ArrayList<>();
         for (FieldError error : ex.getBindingResult().getFieldErrors()) {
             errors.add(error.getField() + ": " + getErrorMessageOrDefault(error));
@@ -70,6 +74,7 @@ public class CustomRestExceptionHandlerGeneric extends ResponseEntityExceptionHa
         for (ObjectError error : ex.getBindingResult().getGlobalErrors()) {
             errors.add(error.getObjectName() + ": " + getErrorMessageOrDefault(error));
         }
+
         ErrorResponseApiGeneric errorResponseApi = new ErrorResponseApiGeneric(HttpStatus.BAD_REQUEST.value(), getLocalizedMessageOrDefault(ex), errors);
         return new ResponseEntity<>(errorResponseApi, new HttpHeaders(), status);
 
@@ -204,3 +209,5 @@ public class CustomRestExceptionHandlerGeneric extends ResponseEntityExceptionHa
 
 
 }
+
+

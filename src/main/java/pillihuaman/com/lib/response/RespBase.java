@@ -3,155 +3,166 @@ package pillihuaman.com.lib.response;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 //@JsonIgnoreProperties("hibernateLazyInitializer")
+@Builder
+@AllArgsConstructor
+public class RespBase<T> {
 
-	public class RespBase<T> {
+    private Trace trace;
+    private Status status;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private T payload;
 
-		private Trace trace;
-		private Status status;
-	@JsonInclude(JsonInclude.Include.NON_NULL)
-	private T payload;
+    public Trace getTrace() {
+        return trace;
+    }
 
-	public Trace getTrace() {
-			return trace;
-		}
+    public void setTrace(Trace trace) {
+        this.trace = trace;
+    }
 
-		public void setTrace(Trace trace) {
-			this.trace = trace;
-		}
+    public Status getStatus() {
+        return status;
+    }
 
-		public Status getStatus() {
-			return status;
-		}
+    public void setStatus(Status status) {
+        this.status = status;
+    }
 
-		public void setStatus(Status status) {
-			this.status = status;
-		}
+    public T getPayload() {
+        return payload;
+    }
 
-		public T getPayload() {
-			return payload;
-		}
-
-		public void setPayload(T payload) {
-			this.payload = payload;
-		}
-
-
-
-		public RespBase() {
-			super();
-			trace = new Trace();
-			status = new Status();
-		}
-
-		@SuppressWarnings("unchecked")
-		public RespBase<RespGetList<T>> okLista(List<T> lista) {
-			RespGetList<T> respObtieneLista = new RespGetList<>(lista);
-		    @SuppressWarnings("rawtypes")
-			RespBase<RespGetList<T>> respBase = new RespBase().ok(respObtieneLista);
-		    return respBase;
-		}
-		  
-		public RespBase<T> ok(T payload) {
-			RespBase<T> response = new RespBase<>();
-			response.setPayload(payload);
-			response.getStatus().setSuccess(Boolean.TRUE);
-			return response;
-		}
-
-		/**
-		 * Subclase plantilla para trazabilidad
-		 *
-		 * @author ttorres
-		 */
-		//@Data
-		public static class Trace {
-
-			private String traceId;
-
-			public String getTraceId() {
-				return traceId;
-			}
-
-			public void setTraceId(String traceId) {
-				this.traceId = traceId;
-			}
-		}
-
-		/**
-		 * Subclase plantilla para status
-		 *
-		 * @author ttorres
-		 */
-
-		public static class Status {
-
-			private Boolean success;
-			private Error error;
-			
-			public Error getError() {
-				return error;
-			}
-
-			public void setError(Error error) {
-				this.error = error;
-			}
-
-			public Boolean getSuccess() {
-				return success;
-			}
-
-			public void setSuccess(Boolean success) {
-				this.success = success;
-			}
+    public void setPayload(T payload) {
+        this.payload = payload;
+    }
 
 
-		
-			/**
-			 * Subclase plantilla para error
-			 *
-			 * @author ttorres
-			 */
+    public RespBase() {
+        super();
+        trace = new Trace();
+        status = new Status();
+    }
 
-			public static class Error {
+    @SuppressWarnings("unchecked")
+    public RespBase<RespGetList<T>> okLista(List<T> lista) {
+        RespGetList<T> respObtieneLista = new RespGetList<>(lista);
+        @SuppressWarnings("rawtypes")
+        RespBase<RespGetList<T>> respBase = new RespBase().ok(respObtieneLista);
+        return respBase;
+    }
 
-				public String getCode() {
-					return code;
-				}
+    public RespBase<T> ok(T payload) {
+        RespBase<T> response = new RespBase<>();
+        response.setPayload(payload);
+        response.getStatus().setSuccess(Boolean.TRUE);
+        return response;
+    }
 
-				public void setCode(String code) {
-					this.code = code;
-				}
+    /**
+     * Subclase plantilla para trazabilidad
+     *
+     * @author ttorres
+     */
+    //@Data
+    @Builder
+    @AllArgsConstructor
+    public static class Trace {
+        public Trace() {
 
-				public String getHttpCode() {
-					return httpCode;
-				}
+        }
 
-				public void setHttpCode(String httpCode) {
-					this.httpCode = httpCode;
-				}
+        private String traceId;
 
-				public List<String> getMessages() {
-					return messages;
-				}
+        public String getTraceId() {
+            return traceId;
+        }
 
-				public void setMessages(List<String> messages) {
-					this.messages = messages;
-				}
+        public void setTraceId(String traceId) {
+            this.traceId = traceId;
+        }
+    }
 
-				private String code;
-				private String httpCode;
-				private List<String> messages;
+    /**
+     * Subclase plantilla para status
+     *
+     * @author ttorres
+     */
+    @Builder
+    @AllArgsConstructor
+    public static class Status {
 
-				public Error() {
-					super();
-					messages = new ArrayList<>();
-				}
-			}
-		}
-	}
+        private Boolean success;
+        private Error error;
+
+        public Status() {
+        }
+
+        public Error getError() {
+            return error;
+        }
+
+        public void setError(Error error) {
+            this.error = error;
+        }
+
+        public Boolean getSuccess() {
+            return success;
+        }
+
+        public void setSuccess(Boolean success) {
+            this.success = success;
+        }
+
+
+        /**
+         * Subclase plantilla para error
+         *
+         * @author ttorres
+         */
+        @Builder
+        @AllArgsConstructor
+        public static class Error {
+
+            public String getCode() {
+                return code;
+            }
+
+            public void setCode(String code) {
+                this.code = code;
+            }
+
+            public String getHttpCode() {
+                return httpCode;
+            }
+
+            public void setHttpCode(String httpCode) {
+                this.httpCode = httpCode;
+            }
+
+            public List<String> getMessages() {
+                return messages;
+            }
+
+            public void setMessages(List<String> messages) {
+                this.messages = messages;
+            }
+
+            private String code;
+            private String httpCode;
+            private List<String> messages;
+
+            public Error() {
+                super();
+                messages = new ArrayList<>();
+            }
+        }
+    }
+}

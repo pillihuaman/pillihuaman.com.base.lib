@@ -4,17 +4,13 @@ import org.bson.types.ObjectId;
 
 import java.io.Serializable;
 
-@Setter
-@Getter
-@NoArgsConstructor
-@AllArgsConstructor // Add this annotation for the all-argument constructor
-@Builder
-@ToString
-public class ReqUser  {
 
-	private ObjectId idUser;
+@Getter
+@Setter
+@Builder
+public class ReqUser implements  Serializable  {
+
 	private String alias;
-	private  ObjectId idSystem;
 	private String email;
 	private String mobilPhone;
 	private String user;
@@ -22,9 +18,17 @@ public class ReqUser  {
 	private String apiPassword;
 	private String password;
 	private String salPassword;
-	private   boolean enabled;
-	private ObjectId idRol;
-
+	public ReqUser(String alias, String email, String mobilPhone, String user, String userName, String apiPassword, String password, String salPassword) {
+		this.alias = alias;
+		this.email = email;
+		this.mobilPhone = mobilPhone;
+		this.user = user;
+		this.userName = userName;
+		this.apiPassword = apiPassword;
+		this.password = password;
+		this.salPassword = salPassword;
+	}
+	public ReqUser(){}
 }
 
 

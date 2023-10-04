@@ -1,9 +1,9 @@
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\log\Log4J2PropertiesConf.java
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqStock.java
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\exception\CreatedException.java
+D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\exception\CustomRegistrationException.java
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\RespGetList.java
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\CorouselImage.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\commons\MyJsonWebToken.java
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\RespBase.java
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\exception\StatusInactiveEndDateAfterStartDateValidation.java
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\exception\CustomRestExceptionHandlerGeneric.java
@@ -20,6 +20,8 @@ D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\co
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqProduct.java
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\commons\Utils.java
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqUser.java
+D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\commons\GenericMapper.java
+D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\exception\CustomAuthenticationException.java
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqBase.java
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\ResponseStock.java
 D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\Base.java
