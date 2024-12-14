@@ -9,7 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pillihuaman.com.pe</groupId>
+<<<<<<< HEAD
     <artifactId>pillihuaman.com.pe.lib</artifactId>
+=======
+    <artifactId>pillihuaman.com.pe.lib.security</artifactId>
+>>>>>>> f048854e5605c9a7420761cab7486ac1b850e396
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
@@ -88,6 +92,18 @@
             <groupId>org.mongodb</groupId>
             <artifactId>bson</artifactId>
             <version>4.8.2</version>
+        </dependency>
+        <dependency>
+            <groupId>pillihuaman.com.pe</groupId>
+            <artifactId>pillihuaman.com.pe.lib</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>pillihuaman.com.pe</groupId>
+            <artifactId>pillihuaman.com.pe.basebd</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pillihuaman\com\pe\lib\response\RespBase$Trace$TraceBuilder.class
 pillihuaman\com\pe\lib\exception\ErrorResponseApiGeneric.class
 pillihuaman\com\pe\lib\response\SystemResponse$SystemResponseBuilder.class
@@ -62,3 +63,5 @@ pillihuaman\com\pe\lib\response\ResponseParameter.class
 pillihuaman\com\pe\lib\request\ReqImagenByProduct.class
 pillihuaman\com\pe\lib\response\SystemResponse.class
 pillihuaman\com\pe\lib\response\RespUser.class
+=======
+>>>>>>> f048854e5605c9a7420761cab7486ac1b850e396

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\RespImagenGeneral.java
 C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\ResponseParameter.java
 C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqSize.java
@@ -43,3 +44,13 @@ C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\
 C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\exception\StatusInactiveEndDateAfterStartDateValidation.java
 C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\ResponseStock.java
 C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\RespSize.java
+=======
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base-security\src\main\java\pillihuaman\com\pe\lib\Application.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base-security\src\main\java\pillihuaman\com\pe\lib\security\UserInfoUserDetailsServiceimplements.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base-security\src\main\java\pillihuaman\com\pe\lib\security\JwtService.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base-security\src\main\java\pillihuaman\com\pe\lib\log\Log4J2PropertiesConf.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base-security\src\main\java\pillihuaman\com\pe\lib\security\JwtAuthenticationFilter.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base-security\src\main\java\pillihuaman\com\pe\lib\security\SecurityConfiguration.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base-security\src\main\java\pillihuaman\com\pe\lib\security\LogoutService.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base-security\src\main\java\pillihuaman\com\pe\lib\security\ApplicationConfig.java
+>>>>>>> f048854e5605c9a7420761cab7486ac1b850e396
