@@ -1,38 +1,45 @@
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\log\Log4J2PropertiesConf.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqStock.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\exception\CreatedException.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\exception\CustomRegistrationException.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\RespGetList.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\CorouselImage.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\RespBase.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\exception\StatusInactiveEndDateAfterStartDateValidation.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\exception\CustomRestExceptionHandlerGeneric.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ImagenDetail.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqParameter.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\RespUser.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\exception\ErrorResponseApiGeneric.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqSize.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\exception\UnprocessableEntityException.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqImagenByProduct.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\RespImagen.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\RespControl.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\RespSize.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqProduct.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\commons\Utils.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqUser.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\commons\GenericMapper.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\exception\CustomAuthenticationException.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqBase.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\ResponseStock.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\Base.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqColor.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqControl.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\commons\Parameters.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\RespColor.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\ResponseParameter.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\Application.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\RespImagenGeneral.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\ResponseUser.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqImagen.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\request\ReqSpeech.java
-D:\Alamoda\version 2023 backend\pillihuaman-com-lib\src\main\java\pillihuaman\com\lib\response\RespProduct.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\RespImagenGeneral.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\ResponseParameter.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqSize.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\exception\CustomRestExceptionHandlerGeneric.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\commons\Parameters.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqStock.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\exception\CreatedException.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqControl.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqSpeech.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ImagenDetail.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\commons\GenericMapper.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqBase.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\SystemRequest.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqImagen.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\log\Log4J2PropertiesConf.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\RespControl.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqEmployee.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\exception\CustomRegistrationException.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqParameter.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqUser.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\RespEmployee.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\RespUser.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\exception\ErrorResponseApiGeneric.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\SystemResponse.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\dto\AuthenticationRequest.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\RespBase.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\CorouselImage.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqColor.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\RespColor.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\RespGetList.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqProduct.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\RespImagen.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\ResponseUser.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\RespProduct.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\Base.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\Application.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\exception\CustomAuthenticationException.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\dto\AuthenticationResponse.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\exception\UnprocessableEntityException.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\request\ReqImagenByProduct.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\commons\Utils.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\dto\ThemesRequest.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\exception\StatusInactiveEndDateAfterStartDateValidation.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\ResponseStock.java
+C:\Users\zarmir.pillihuaman\Documents\SISCO\alamodaperu\pillihuaman-com-pe-base\src\main\java\pillihuaman\com\pe\lib\response\RespSize.java
